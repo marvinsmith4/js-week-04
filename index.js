@@ -29,96 +29,29 @@
  *    clear, commit and push your changes!
  */
 
+const fortyTwo = () => 42
 
+const helloWorld = () => 'Hello ' + ''
 
+const twoTrue = () => 2 === 2
 
+const trueNotTwo = () => 2 !== 2
 
-const fortyTwo = () => 42;
+const twoPlusTwo = () => 2 + 2 === 5
 
+const ohYeahDecimals = () => 1.0 + 1.0 + 1.0 === 4
 
+const ohNoDecimals = () => {
+  0.1 + 0.1 + 0.1 === 0.3
+}
 
-
-
-const helloWorld = () =>
-
-
-  'Hello ' + ''
-
-
-
-
-
-const twoTrue = () =>
-
-
-  2 === 2
-
-
-
-
-const trueNotTwo = () =>
-
-
-  2 !== 2
-
-
-
-
-
-const twoPlusTwo = () =>
-
-
-  2 + 2 === 5
-
-
-
-
-
-
-
-const ohYeahDecimals = () =>
-
-
-  1.0 + 1.0 + 1.0 === 4
-
-
-
-
-
-const ohNoDecimals = () =>
-
-
-  { 0.1 + 0.1 + 0.1 === 0.3}
-
-
-
-
-
-const waxingParenthetical = () =>
-
-
-  2 * 5 + 1 === 12
-
-
-
-
+const waxingParenthetical = () => 2 * 5 + 1 === 12
 
 const add = (numOne, numTwo) => ''
-  
 
+const closure = () => (x => y => z => x + y + z)(1, 2, 3)
 
-const closure = () => (
-  (x) =>
-    (y) =>
-      (z) => x + y + z
-)(1, 2, 3)
-
-
-
-const commaFTW = () => (
-  1, 1 + 2 + 4
-)
-
+const commaFTW = () => (1, 1 + 2 + 4)
 
 module.exports = {
   fortyTwo,
@@ -132,5 +65,3 @@ module.exports = {
   playOperation,
   thatModulusTho,
 }
-
-
